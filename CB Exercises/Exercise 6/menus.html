@@ -17,7 +17,8 @@
             }
 
             
-            nav ul li {
+            nav > ul > li {
+                font-size: 30px;
                 display: inline-block; 
                 border-right: 2px solid black;
                 padding: 0px 4px 0px 2px;               
@@ -28,16 +29,20 @@
             }
             
             nav ul ul {
+                font-size: 20px;
                 visibility: hidden;
                 position: absolute;
                 top: 25px;
-                width: 100px;
-                background-color: red;
-                color: blue;
+                padding: 2px;
+                background-color: #7F8D7D;
+                color: #5C453F;
               }
 
+            nav ul ul li {
+                padding: 2px;
+            }
 
-            nav ul li:hover>li {
+            nav ul li:hover > ul {
                 visibility: visible;
               }
 
@@ -48,21 +53,24 @@
 	<body>
 		<nav>
             <ul>
-                <li><a href="#">Ninjas</a></li>
-                    <ul>
+                <li><a href="#">Ninjas</a>
+                    <ul><em><strong>
                         <li>Turtles</li>
                         <li>Pandas</li>
-                    </ul>
-                <li><a href="#">Force</a></li>
-                    <ul>
+                    </ul></em></strong>
+                </li>
+                <li><a href="#">Force</a>
+                    <ul><em><strong>
                         <li>Tie Fighters</li>
                         <li>Storm Troopers</li>
-                    </ul>
-                <li><a href="#">MCU</a></li>
-                    <ul>
+                    </ul></em></strong>
+                </li>
+                <li><a href="#">MCU</a>
+                    <ul><em><strong>
                         <li>Spidey</li>
                         <li>Fury</li>
-                    </ul>
+                    </ul></em></strong>
+                </li>
             </ul>
         </nav>
       
