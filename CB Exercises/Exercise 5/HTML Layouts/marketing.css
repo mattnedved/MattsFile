@@ -1,0 +1,13 @@
+#wrapper{width: 850px;}
+
+#top{background-color: navy; color: white;}
+
+#main{background-color: green; width: 99%;}
+
+#left{background-color: red; width: 33%; float: left;}
+
+#center{background-color: white; width: 33%; float: left;}
+
+#right{background-color: blue; width: 33%; float: left;}
+
+#bottom{background-color: navy; color: white;}

@@ -1,0 +1,9 @@
+#wrapper{width: 850px;}
+
+#top{background-color: red;}
+
+#main{width: 80%; float: left}
+
+#sidebar{background-color: blue; width: 20%; float: right;}
+
+#bottom{background-color: red; clear: both; position: relative; top: 10px;}

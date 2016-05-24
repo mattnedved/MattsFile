@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+
+    	<style>
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            
+            nav ul li:hover {
+                background-color: green;
+            }
+
+            
+            nav ul li {
+                display: inline-block; 
+                border-right: 2px solid black;
+                padding: 0px 4px 0px 2px;               
+            }
+
+            nav ul li:last-child {
+                border-right: none;
+            }
+            
+            nav ul ul {
+                visibility: hidden;
+                position: absolute;
+                top: 25px;
+                width: 100px;
+                background-color: red;
+                color: blue;
+              }
+
+
+            nav ul li:hover>li {
+                visibility: visible;
+              }
+
+
+
+    	</style>
+	</head>
+	<body>
+		<nav>
+            <ul>
+                <li><a href="#">Ninjas</a></li>
+                    <ul>
+                        <li>Turtles</li>
+                        <li>Pandas</li>
+                    </ul>
+                <li><a href="#">Force</a></li>
+                    <ul>
+                        <li>Tie Fighters</li>
+                        <li>Storm Troopers</li>
+                    </ul>
+                <li><a href="#">MCU</a></li>
+                    <ul>
+                        <li>Spidey</li>
+                        <li>Fury</li>
+                    </ul>
+            </ul>
+        </nav>
+      
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
