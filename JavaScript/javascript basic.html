@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+
+    	<script>
+
+    		/*var a = "";
+    		var b = true;
+    		var c = 0;
+    		var d;
+
+    		whatIsTheType(a);
+    		whatIsTheType(b);
+    		whatIsTheType(c);
+    		whatIsTheType(d);
+
+        var fun = function () {
+            console.log("hello");
+        }
+
+    		function do_something() {
+    			var x = 5;
+    			var y = 5;
+    			var y = y + x;
+    			console.log("The sum is: " + y);
+    		}
+
+            console.log("Valid: " + isValid(9));
+            console.log("Valid: " + isValid(-1));*/
+
+            //This is a comment
+            function isValidQuantity(quantity) {
+
+                if(quantity > 0 && quantity < 10)
+                    return true;
+                else {
+                    return false;
+                }
+
+
+            console.log(isValidQuantity("2y5"));
+
+            }
+
+    		/*function whatIsTheType(arg1){
+
+    			if(typeof(arg1) == "number")
+    				console.log("Argument is a number");
+    			else if(typeof(arg1) == "string")
+    				console.log("Argument is a string");
+    			else if(typeof(arg1) == "boolean")
+    				console.log("Argument is a boolean");
+    			else if(typeof(arg1) == "undefined")
+    				console.log("Argument is null");
+    			else
+    				console.log("Not sure :(");
+
+                return;
+    		}*/
+
+            /* Arrays Section */
+
+            var myArray = [0,1,2,3,4,5,9,1,2,2,9];
+
+            myArray[5] = 99;
+
+            //console.log(myArray[5]);
+
+            printElement(myArray[0]);
+
+            function printElement(arrayValue) {
+                //console.log("The value is: " + arrayValue);
+            }
+
+            for (var i = 0; i < myArray.length; i++ ){
+                //console.log("Element at index " + i + " is " + myArray[i]);
+            }
+
+            var bools = [true,true,false];
+
+            var x = 0;
+            while(bools[x] == true) {
+
+                console.log(x);
+                x++;
+            }
+
+    	</script>
+	</head>
+	<body>
+		<script>
+			document.write("<p>Hello World!</p>");
+		</script>
+	</body>
+</html>
