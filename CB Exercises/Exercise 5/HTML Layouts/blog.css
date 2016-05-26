@@ -2,7 +2,7 @@
 
 #top{background-color: red;}
 
-#main{width: 80%; float: left}
+#main{width: 815px; height: 460px; background-color: gray; float: left}
 
 #sidebar{background-color: blue; width: 20%; float: right;}
 
